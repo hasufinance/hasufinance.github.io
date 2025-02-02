@@ -1,0 +1,45 @@
+/*
+Theme Name: Hello Elementor Child
+Theme URI: https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash
+Template: hello-elementor
+Author: Elementor Team
+Author URI: https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash
+Description: A plain-vanilla &amp; lightweight theme for Elementor page builder
+Tags: accessibility-ready,flexible-header,custom-colors,custom-menu,custom-logo,featured-images,rtl-language-support,threaded-comments,translation-ready
+Version: 2.7.1.1687185360
+Updated: 2023-06-19 14:36:00
+
+*/
+
+/* select.gt_selector {
+    color: #00000073;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+} */
+.ff-message-success {
+    border: none !important;
+    box-shadow: none !important;
+    margin-top: 10px;
+    padding: 15px;
+    position: relative;
+    color: #fff;
+}
+#header-blog-custom {
+	display: none;
+}
+.postid-2151 #header-blog-custom, .postid-2481 #header-blog-custom {
+	display: block;
+}
+.postid-2151 #header-blog-all, .postid-2481 #header-blog-all {
+	display: none;
+}
+
+.page-id-568 .footer-custom .e-con-inner, .archive .footer-custom .e-con-inner {
+    padding-top: 60px;
+}
+.ft-custom-child .e-con-inner {
+    padding-top: 0px !important;
+}
